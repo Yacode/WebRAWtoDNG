@@ -2,6 +2,11 @@
 
 这是一个基于Web界面的RAW格式图片转换工具，可以将各种相机RAW格式（包括CR2、CR3、NEF、ARW等）转换为Adobe DNG格式。该工具提供了简单的Web界面，支持批量上传和转换，并具有文件预览功能。
 
+## 最新更新
+- 修复了Git远程仓库地址问题
+- 优化了项目名称
+- 完善了安装步骤说明
+
 ## 功能特点
 
 - 支持多种RAW格式转换：CR2、CR3、NEF、ARW、ORF、RW2、RAF
@@ -33,8 +38,8 @@ brew install exiftool
 2. 克隆项目并安装Python依赖：
 ```bash
 # 克隆项目
-git clone https://github.com/[your-username]/raw-to-dng-converter.git
-cd raw-to-dng-converter
+git clone https://github.com/Yacode/WebRAWtoDNG.git
+cd WebRAWtoDNG
 
 # 安装Python依赖
 pip3 install -r requirements.txt
