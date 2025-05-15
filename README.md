@@ -53,7 +53,7 @@ python3 run_server.py
 ```
 
 2. 在浏览器中访问：`http://localhost:5221`
-![todng d amstro asia_54404_(Pixel 7)](https://github.com/user-attachments/assets/7cfb4ef6-ff81-49e0-b18f-9efc057501e2)
+![todng d amstro asia_54404_(Pixel 7)](https://github.com/user-attachments/assets/7cfb4ef6-ff81-49e0-b18f-9efc057501e2){width=50%}
 
 3. 通过Web界面上传RAW文件，支持以下格式：
    - Canon: CR2, CR3
