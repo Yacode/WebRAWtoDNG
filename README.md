@@ -56,10 +56,6 @@ python3 run_server.py
 
 ![Snipaste_2025-05-15_12-28-54](https://github.com/user-attachments/assets/32f2e25b-3358-49cd-87d4-b2f38b0f867f)
 
-| 设备 | 预览 |
-| --- | --- |
-| Pixel 7 | ![todng d amstro asia_54404_(Pixel 7)](https://github.com/user-attachments/assets/7cfb4ef6-ff81-49e0-b18f-9efc057501e2){width=200} |
-
 3. 通过Web界面上传RAW文件，支持以下格式：
    - Canon: CR2, CR3
    - Nikon: NEF
