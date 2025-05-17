@@ -76,21 +76,11 @@
 
         <div class="processed-files card">
             <h2><i class="fas fa-file-download"></i> 已处理文件</h2>
-            <div class="file-count">共 <span id="file-count">{{ processed_files|length }}</span> 个文件</div>
+            <div class="file-count">共 <span id="file-count">0</span> 个文件</div>
             <ul class="file-list" id="fileList">
-                {% for file in processed_files %}
-                <li class="file-item">
-                    <div class="file-info">
-                        <i class="fas fa-file-image"></i>
-                        <span class="file-name">{{ file }}</span>
-                    </div>
-                    <a href="/download/{{ file }}" class="download-btn" data-token="">
-                        <i class="fas fa-download"></i> 下载
-                    </a>
-                </li>
-                {% endfor %}
+                <!-- 文件列表将通过JavaScript动态加载 -->
             </ul>
-            <div class="empty-list" {% if processed_files %}style="display:none"{% endif %}>
+            <div class="empty-list">
                 <i class="fas fa-inbox fa-3x"></i>
                 <p>暂无已处理文件</p>
             </div>
